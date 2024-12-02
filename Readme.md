@@ -5,3 +5,4 @@ The goal of this repository is first to share different designs we made or learn
 and to discuss of our solutions.
 
 Day1 - Animated background
+Day2 - Animated Buttons
