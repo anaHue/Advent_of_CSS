@@ -6,3 +6,4 @@ and to discuss of our solutions.
 
 Day1 - Animated background
 Day2 - Animated Buttons
+Day3 - Animated texts

@@ -52,19 +52,44 @@ body{
 
 #menu button {
     background-color: transparent;
-    color: white;
+    color: transparent;
     border: none;
-    animation: show 1s forwards;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #menu button:hover {
     color: white;
-    text-decoration-line: underline;
+}
+
+button img {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    animation: show 1s forwards;
+}
+
+button:hover img {
+    cursor: pointer;
+    z-index: 1;
     animation: fade 1s forwards;
-    transition: all 1s ease-in;
+}
+
+button p {
+    position: relative;
+    top: 75px;
+    z-index: -1;
+    text-decoration: underline;
+    animation: blink .75s alternate infinite;
+}
+
+@keyframes blink {
+    from {
+        text-decoration: underline;
+    } to { 
+        text-decoration: none;
+    }
 }
 
 @keyframes fade {
